@@ -29,3 +29,22 @@ echo '<br>' . $variavel;
 $variavel = "Agora sou uma string";
 echo '<br>' . $variavel;
 
+
+
+#Nomes de variáveis:
+
+$var = 'valida';
+$var2 = 'valida';
+$VAR3 = 'valida';
+$_var_4 = 'valida';
+$vâr5 = 'valida'; //mas não é uma boa prática
+//  $6var = 'invalida';
+//  $%var = 'invalida;
+//  $var8% = 'invalida';
+
+
+#Nomes de variáveis pré-definidas:
+
+echo '<br>' ;
+var_dump($_SERVER["HTTP_HOST"]);
+
