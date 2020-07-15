@@ -86,6 +86,14 @@
                                 Variáveis
                             </a>
                         </li>
+                        <li><a href="exercicio.php?dir=variaveis&file=desafio_equacoes">
+                                Desafio Equações
+                            </a>
+                        </li>
+                        <li><a href="exercicio.php?dir=variaveis&file=atribuicoes">
+                                Atribuições
+                            </a>
+                        </li>
                        
 
                     </ul>
