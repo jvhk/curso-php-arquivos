@@ -116,6 +116,15 @@
                         </li>  
                     </ul>
                 </div>
+                <div class="modulo roxo">
+                    <h3>Módulo 04 - Controle</h3>
+                    <ul>
+                        <li><a href="exercicio.php?dir=controle&file=if_else">
+                                Variáveis
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </div>
     </main>
