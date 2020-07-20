@@ -123,6 +123,10 @@
                                 IF else
                             </a>
                         </li>
+                        <li><a href="exercicio.php?dir=controle&file=operadores_relacionais">
+                                Ope. Relacionais
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </nav>
