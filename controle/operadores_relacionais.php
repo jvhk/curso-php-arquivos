@@ -28,3 +28,25 @@ if($idade < 18){
     echo "Maior";
 }
 
+
+echo "<h1> Parte 2 Operadores Relacionais </h1><hr>";
+
+echo "<p>Spaceship:</p>";
+
+var_dump(100 <=> 1); //retorna 1 se o operando da esquerda for maior que o da direita
+var_dump(4 <=> 4); //retorna  0 se os operandos forem iguais
+var_dump(4 <=> 10); //retorna -1 caso o operando da direita for maior que o da esquerda
+
+?>
+
+
+
+<style>
+p{
+    margin-bottom: -10px;
+}
+h1{
+    margin-bottom: 0px;
+}
+
+</style>
