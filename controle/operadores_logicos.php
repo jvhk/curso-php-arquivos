@@ -41,3 +41,18 @@ var_dump(true xor false);
 echo "<br>";
 var_dump(false xor false);
 echo "<br>";
+
+//-------------------------------------------------
+
+//Parte 2
+echo "<p>--Exemplo--</p><hr>";
+$idade = 62;
+$sexo = 'F';
+
+if($idade >=60 && $sexo == 'F' ){
+    echo "Pode se aposentar " . $sexo;
+}elseif($idade >=65 && $sexo == 'M'){
+    echo "Pode se aposentar " . $sexo;
+}else{
+    echo "Não pode se aposentar";
+}
