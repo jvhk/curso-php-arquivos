@@ -131,6 +131,10 @@
                                 Desafio PI
                             </a>
                         </li>
+                        <li><a href="exercicio.php?dir=controle&file=operadores_logicos">
+                                Operadores lógicos
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </nav>
