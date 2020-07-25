@@ -25,5 +25,41 @@
 </style>
 
 <?php
-echo $_POST['t1'];
-echo $_POST['t2'];
+//Para efeitos de teste
+//echo $_POST['t1'];
+//echo $_POST['t2'];
+
+if(isset($_POST['t1']) && isset($_POST['t2'])){
+    $t1 =  $_POST['t1'] == '1';
+    $t2 = !!$_POST['t2'];
+    $tv = '';
+    $sorvete = false;
+
+
+    if($t1 && $t2){
+        $tv = '50pol';
+    }
+
+    if($t1 xor $t2){
+        $tv = '32pol';  
+    }
+
+    if($t1 or $t2){
+        $sorvete = true;
+    }
+
+
+    if($tv){
+        $resultado = "Vamos comprar uma tv de $tv";
+    }else{
+        $resultado = "Sem tv dessa vez";
+    }
+
+    if(!$sorvete){
+        $resultado .= "<br>Estamos mais saudaveis!";
+    }else{
+        $resultado .= "<br>Tomaremos sorvete";
+    }
+
+    echo "<p>$resultado</p>";
+}

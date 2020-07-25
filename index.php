@@ -39,10 +39,7 @@
                                 Desafio 1 PHP
                             </a>
                         </li>
-                        <li><a href="exercicio.php?dir=basico&file=desafio_op_logicos">
-                                Desafio OP Lógicos
-                            </a>
-                        </li>
+                        
                     </ul>
                 </div>
                 <div class="modulo vermelho">
@@ -137,6 +134,10 @@
                         </li>
                         <li><a href="exercicio.php?dir=controle&file=operadores_logicos">
                                 Operadores lógicos
+                            </a>
+                        </li>
+                        <li><a href="exercicio.php?dir=controle&file=desafio_op_logicos">
+                                Desafio OP Lógicos
                             </a>
                         </li>
                     </ul>
