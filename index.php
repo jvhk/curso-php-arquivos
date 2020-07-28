@@ -143,8 +143,13 @@
                         <li><a href="exercicio.php?dir=controle&file=operador_ternario">
                                 Operador ternário
                             </a>
-                        </li><li><a href="exercicio.php?dir=controle&file=switch">
+                        </li>
+                        <li><a href="exercicio.php?dir=controle&file=switch">
                                 Switch
+                            </a>
+                        </li>
+                        <li><a href="exercicio.php?dir=controle&file=desafio_switch">
+                                Desafio Switch
                             </a>
                         </li>
                     </ul>
