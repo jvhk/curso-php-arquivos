@@ -9,6 +9,8 @@
             <option value="milha-km">Milha -> Km</option>
             <option value="metro-km">Metro -> Km</option>
             <option value="km-metro">Km -> Metro</option>
+            <option value="fahrenheit-celsius">Fahrenheit -> Celsius </option>
+            <option value="celsiu-fahrenheit">Celsius -> Fahrenheit</option>
         </select>
         <button type="submit" value="Converter">Calcular</button>
 </form>
@@ -29,19 +31,25 @@ $tipo = $_POST['conversao'];
 
 switch($tipo){
     case 'km-milha':
-       $dist = ($valor * 0.621371);
+       $conversao = ($valor * 0.621371);
     break;
     case 'milha-km':
-        $dist = ($valor / 0.621371);
+        $conversao = ($valor / 0.621371);
     break;
     case 'metro-km':
-        $dist = ($valor / 1000);
+        $conversao = ($valor / 1000);
     break;
     case 'km-metro':
-        $dist = ($valor * 1000);
+        $conversao = ($valor * 1000);
+    break;
+    case 'fahrenheit-celsius':
+        $conversao = ($valor - 32) / 1.8000;
+    break;
+    case 'celsiu-fahrenheit':
+        $conversao = ($valor * 1.8000) + 32;
     break;
 }
 
-echo "Valor convertido tipo ($tipo) : $dist";
+echo "Valor convertido tipo ($tipo) : $conversao";
 
 ?>
