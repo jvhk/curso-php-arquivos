@@ -160,7 +160,11 @@
                         <li><a href="exercicio.php?dir=array&file=basico">
                                 Array
                             </a>
-                        </li>                       
+                        </li>
+                        <li><a href="exercicio.php?dir=array&file=mapa">
+                                Mapas
+                            </a>
+                        </li>                         
                     </ul>
                 </div>
             </nav>
