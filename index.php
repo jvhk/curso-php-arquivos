@@ -176,7 +176,15 @@
                         <li><a href="exercicio.php?dir=array&file=operacoes">
                                 Operações
                             </a>
-                        </li>                             
+                        </li>
+                        <li><a href="exercicio.php?dir=array&file=desafio_sorteio">
+                                Desafio Sorteio
+                            </a>
+                        </li>
+                        <li><a href="exercicio.php?dir=array&file=arrays_multidimencionais">
+                                Arrays Multidimencionais
+                            </a>
+                        </li>                                 
                     </ul>
                 </div>
             </nav>
