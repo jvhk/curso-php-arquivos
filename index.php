@@ -184,7 +184,11 @@
                         <li><a href="exercicio.php?dir=array&file=arrays_multidimencionais">
                                 Arrays Multidimencionais
                             </a>
-                        </li>                                 
+                        </li>
+                        <li><a href="exercicio.php?dir=array&file=arrays_constantes">
+                                Arrays Constantes
+                            </a>
+                        </li>                                
                     </ul>
                 </div>
             </nav>
