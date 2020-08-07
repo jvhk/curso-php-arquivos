@@ -196,7 +196,20 @@
                         <li><a href="exercicio.php?dir=array&file=post">
                                 $POST
                             </a>
-                        </li>                               
+                        </li>
+                        <li><a href="exercicio.php?dir=array&file=comparacao">
+                                Comparação
+                            </a>
+                        </li>                                
+                    </ul>
+                </div>
+                <div class="modulo verde-escuro">
+                    <h3>Módulo 06 - Repetições</h3>
+                    <ul>
+                        <li><a href="exercicio.php?dir=repeticoes&file=for">
+                                Laço FOR
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </nav>
