@@ -210,6 +210,18 @@
                                 Laço FOR
                             </a>
                         </li>
+                        <li><a href="exercicio.php?dir=repeticoes&file=desafio_for">
+                                Desafio FOR
+                            </a>
+                        </li>
+                        <li><a href="exercicio.php?dir=repeticoes&file=foreach">
+                                FOR each
+                            </a>
+                        </li>
+                        <li><a href="exercicio.php?dir=repeticoes&file=break_continue">
+                                Break Continue
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </nav>
