@@ -226,6 +226,10 @@
                                 Desafio Impressão
                             </a>
                         </li>
+                        <li><a href="exercicio.php?dir=repeticoes&file=while_dowhile">
+                            while do while
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </nav>
