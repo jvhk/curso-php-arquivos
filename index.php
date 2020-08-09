@@ -230,6 +230,10 @@
                             while do while
                             </a>
                         </li>
+                        <li><a href="exercicio.php?dir=repeticoes&file=desafio_tabela">
+                            Desafio Tabela 01
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </nav>
