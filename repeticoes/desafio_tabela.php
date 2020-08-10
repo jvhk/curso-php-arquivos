@@ -8,14 +8,45 @@ $matriz = [
     ['16','17','18','19','20']
 ];
 
-foreach($matriz as $linhas){
+/*foreach($matriz as $linhas){
     foreach($linha as $valor){
         echo "$valor";
     }
     echo "<br>";
-}
+}*/
 
 ?>
+
+
+<table>
+    <?php
+        foreach($matriz as $linhas){
+            echo "<tr>";
+            foreach($linhas as $valor){
+                echo "<td>$valor</td>";
+            }
+            echo "</tr>";
+        }
+    ?>
+</table>
+
+<table>
+    <?php
+        foreach($matriz as $index => $linha){
+            $style = "";
+            if($index % 2 != 0){
+                $style .= 'background-color: lightblue'; 
+            }else{
+                $style = "";
+            }
+            echo "<tr style='{$style}'>";
+            foreach($linha as $valor){
+                echo "<td>$valor</td>";
+            }
+            echo "</tr>";
+        }
+    ?>
+</table>
 
 
 <style>
