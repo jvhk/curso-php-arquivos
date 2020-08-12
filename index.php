@@ -234,6 +234,10 @@
                             Desafio Tabela 01
                             </a>
                         </li>
+                        <li><a href="exercicio.php?dir=repeticoes&file=desafio_tabela02">
+                            Desafio Tabela 02
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </nav>
