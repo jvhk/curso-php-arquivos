@@ -250,7 +250,11 @@
                         <li><a href="exercicio.php?dir=funcoes&file=args_retorno">
                                 Args e Retorno
                             </a>
-                        </li>                        
+                        </li>
+                        <li><a href="exercicio.php?dir=funcoes&file=desafio_01">
+                                Desafio Palíndromo
+                            </a>
+                        </li>                          
                     </ul>
                 </div>
             </nav>
