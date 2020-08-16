@@ -254,7 +254,11 @@
                         <li><a href="exercicio.php?dir=funcoes&file=desafio_01">
                                 Desafio Palíndromo
                             </a>
-                        </li>                          
+                        </li>
+                        <li><a href="exercicio.php?dir=funcoes&file=args_variaveis">
+                                Args variaveis    
+                            </a>
+                        </li>                                             
                     </ul>
                 </div>
             </nav>
