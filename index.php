@@ -258,7 +258,11 @@
                         <li><a href="exercicio.php?dir=funcoes&file=args_variaveis">
                                 Args variaveis    
                             </a>
-                        </li>                                             
+                        </li>                    
+                        <li><a href="exercicio.php?dir=funcoes&file=arg_padrao">
+                                Arg padrão    
+                            </a>
+                        </li>                                          
                     </ul>
                 </div>
             </nav>
