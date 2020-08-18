@@ -262,7 +262,12 @@
                         <li><a href="exercicio.php?dir=funcoes&file=arg_padrao">
                                 Arg padrão    
                             </a>
-                        </li>                                          
+                        </li>
+                        <li><a href="exercicio.php?dir=funcoes&file=declarando_tipos">
+                                Declarando Tipos  
+                            </a>
+                        </li>                      
+                                               
                     </ul>
                 </div>
             </nav>
