@@ -270,7 +270,11 @@
                         <li><a href="exercicio.php?dir=funcoes&file=funcao_anonima">
                                 Função anônima  
                             </a>
-                        </li>                      
+                        </li>
+                        <li><a href="exercicio.php?dir=funcoes&file=closure_callable">
+                                Closure Callable
+                            </a>
+                        </li>                       
                                                
                     </ul>
                 </div>
