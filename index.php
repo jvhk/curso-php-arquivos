@@ -301,6 +301,10 @@
                                 Primeira Classe
                             </a>
                         </li>
+                        <li><a href="exercicio.php?dir=poo&file=desafio_data">
+                                Desafio Data
+                            </a>
+                        </li>
                            
                     </ul>
                 </div>
