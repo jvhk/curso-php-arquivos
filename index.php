@@ -294,6 +294,16 @@
                                                
                     </ul>
                 </div>
+                <div class="modulo azul-escuro">
+                    <h3>Módulo 08</h3>
+                    <ul>
+                        <li><a href="exercicio.php?dir=poo&file=classe">
+                                Primeira Classe
+                            </a>
+                        </li>
+                           
+                    </ul>
+                </div>
             </nav>
         </div>
     </main>
