@@ -305,7 +305,11 @@
                                 Desafio Data
                             </a>
                         </li>
-                           
+                        <li><a href="exercicio.php?dir=poo&file=contrutor_destrutor">
+                            Construtor destrutor
+                            </a>
+                        </li>
+                        
                     </ul>
                 </div>
             </nav>
