@@ -306,7 +306,11 @@
                             </a>
                         </li>
                         <li><a href="exercicio.php?dir=poo&file=contrutor_destrutor">
-                            Construtor destrutor
+                                Construtor destrutor
+                            </a>
+                        </li>
+                        <li><a href="exercicio.php?dir=poo&file=heranca">
+                                Herança
                             </a>
                         </li>
                         
