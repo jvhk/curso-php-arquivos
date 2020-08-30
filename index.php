@@ -313,6 +313,10 @@
                                 Herança
                             </a>
                         </li>
+                        <li><a href="exercicio.php?dir=poo&file=encapsulamento">
+                                Encapsulamento
+                            </a>
+                        </li>
                         
                     </ul>
                 </div>
