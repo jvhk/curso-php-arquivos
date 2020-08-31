@@ -20,5 +20,11 @@ class A{
 
 
 $objA = new A;
-$objA->mostrarA();
-$objA->mostrarStatic();
+$objA->mostraA();
+//$objA->mostrarStatic(); não é a melhor forma de se acessar uma função estática pois ela pertence a classe apenas
+echo A::$static . "<br>";
+A::mostrarStatic();
+
+
+A::$static = "Alterado membro de classe";
+echo A::$static . "<br>";
