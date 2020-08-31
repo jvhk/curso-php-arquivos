@@ -317,6 +317,10 @@
                                 Encapsulamento
                             </a>
                         </li>
+                        <li><a href="exercicio.php?dir=poo&file=static">
+                                Static
+                            </a>
+                        </li>
                         
                     </ul>
                 </div>
