@@ -325,6 +325,10 @@
                                 Interface
                             </a>
                         </li>
+                        <li><a href="exercicio.php?dir=poo&file=abstract">
+                                Classe abstrata
+                            </a>
+                        </li>
                         
                     </ul>
                 </div>
