@@ -329,6 +329,10 @@
                                 Classe abstrata
                             </a>
                         </li>
+                        <li><a href="exercicio.php?dir=poo&file=desafio_erros">
+                                Desafio erros
+                            </a>
+                        </li>
                         
                     </ul>
                 </div>
