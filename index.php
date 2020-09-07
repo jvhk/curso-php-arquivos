@@ -333,6 +333,10 @@
                                 Desafio erros
                             </a>
                         </li>
+                        <li><a href="exercicio.php?dir=poo&file=metodo_final">
+                                Metodo Final
+                            </a>
+                        </li>
                         
                     </ul>
                 </div>
