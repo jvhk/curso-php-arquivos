@@ -337,6 +337,10 @@
                                 Metodo Final
                             </a>
                         </li>
+                        <li><a href="exercicio.php?dir=poo&file=traits_01">
+                                Traits 01
+                            </a>
+                        </li>
                         
                     </ul>
                 </div>
