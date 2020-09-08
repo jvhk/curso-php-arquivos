@@ -341,6 +341,10 @@
                                 Traits 01
                             </a>
                         </li>
+                        <li><a href="exercicio.php?dir=poo&file=traits_02">
+                                Traits 02
+                            </a>
+                        </li>
                         
                     </ul>
                 </div>
