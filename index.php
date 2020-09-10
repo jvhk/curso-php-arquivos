@@ -345,6 +345,10 @@
                                 Traits 02
                             </a>
                         </li>
+                        <li><a href="exercicio.php?dir=poo&file=metodos_magicos">
+                                Metodos magicos
+                            </a>
+                        </li>
                         
                     </ul>
                 </div>
