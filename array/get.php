@@ -11,3 +11,5 @@ print_r($_GET);
 
 
 echo "<br>{$_GET['nome']}";
+$data = $_GET['nome'];
+var_dump($data);
