@@ -200,7 +200,11 @@
                         <li><a href="exercicio.php?dir=array&file=comparacao">
                                 Comparação
                             </a>
-                        </li>                                
+                        </li>
+                        <li><a href="exercicio.php?dir=array&file=edu">
+                                Edu code
+                            </a>
+                        </li>                                    
                     </ul>
                 </div>
                 <div class="modulo verde-escuro">
@@ -347,6 +351,10 @@
                         </li>
                         <li><a href="exercicio.php?dir=poo&file=metodos_magicos">
                                 Metodos magicos
+                            </a>
+                        </li>
+                        <li><a href="exercicio.php?dir=poo&file=polimorfismo">
+                                Polimorfismo
                             </a>
                         </li>
                         
