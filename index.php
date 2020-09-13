@@ -360,6 +360,15 @@
                         
                     </ul>
                 </div>
+                <div class="modulo roxo-escuro">
+                    <h3>Módulo 09</h3>
+                    <ul>
+                        <li><a href="exercicio.php?dir=include&file=include">
+                                Inicio
+                            </a>
+                        </li>                        
+                    </ul>
+                </div>
             </nav>
         </div>
     </main>
