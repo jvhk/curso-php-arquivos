@@ -366,7 +366,11 @@
                         <li><a href="exercicio.php?dir=include&file=include">
                                 Inicio
                             </a>
-                        </li>                        
+                        </li>
+                        <li><a href="exercicio.php?dir=include&file=include_funcao">
+                                Include em funções
+                            </a>
+                        </li>                          
                     </ul>
                 </div>
             </nav>
