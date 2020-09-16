@@ -370,7 +370,15 @@
                         <li><a href="exercicio.php?dir=include&file=include_funcao">
                                 Include em funções
                             </a>
-                        </li>                          
+                        </li> 
+                        <li><a href="exercicio.php?dir=include&file=include_require">
+                                Include vs Require
+                            </a>
+                        </li>
+                        <li><a href="exercicio.php?dir=include&file=require_return">
+                                Require Return
+                            </a>
+                        </li>                                
                     </ul>
                 </div>
             </nav>
