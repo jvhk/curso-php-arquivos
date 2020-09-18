@@ -378,6 +378,10 @@
                         <li><a href="exercicio.php?dir=include&file=require_return">
                                 Require Return
                             </a>
+                        </li>   
+                        <li><a href="exercicio.php?dir=include&file=include_once">
+                                Include Once
+                            </a>
                         </li>                                
                     </ul>
                 </div>
