@@ -389,6 +389,15 @@
                         </li>                                    
                     </ul>
                 </div>
+                <div class="modulo verde">
+                    <h3>Módulo 10</h3>
+                    <ul>
+                        <li><a href="exercicio.php?dir=namespace&file=basico">
+                                Básico
+                            </a>
+                        </li>                                                 
+                    </ul>
+                </div>
             </nav>
         </div>
     </main>
