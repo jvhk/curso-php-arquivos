@@ -393,9 +393,13 @@
                     <h3>Módulo 10</h3>
                     <ul>
                         <li><a href="exercicio.php?dir=namespace&file=basico">
-                                Básico
+                                Básico namespaces
                             </a>
-                        </li>                                                 
+                        </li>
+                        <li><a href="exercicio.php?dir=namespace&file=sub_namespaces">
+                                Sub namespaces
+                            </a>
+                        </li>                                                  
                     </ul>
                 </div>
             </nav>
