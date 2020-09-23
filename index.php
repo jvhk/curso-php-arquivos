@@ -399,7 +399,11 @@
                         <li><a href="exercicio.php?dir=namespace&file=sub_namespaces">
                                 Sub namespaces
                             </a>
-                        </li>                                                  
+                        </li> 
+                        <li><a href="exercicio.php?dir=namespace&file=use_as">
+                                Use/as
+                            </a>
+                        </li>                                                 
                     </ul>
                 </div>
             </nav>

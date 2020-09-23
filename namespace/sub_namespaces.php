@@ -23,5 +23,6 @@ echo constante . '<br>';
 echo constant('\\' . __NAMESPACE__ . '\constante') . '<br>';
 echo \App\constante . '<br>';
 echo \App\Principal\constante . '<br>';
-echo \App\Principal\Especifico\constante . '<br>';
+//echo \App\Principal\Especifico\constante . '<br>';
 
+echo \App\Principal\Especifico\constante . '<br>';
