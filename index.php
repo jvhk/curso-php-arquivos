@@ -406,6 +406,16 @@
                         </li>                                                 
                     </ul>
                 </div>
+                <div class="modulo vermelho">
+                    <h3>Módulo 11</h3>
+                    <ul>
+                        <li><a href="exercicio.php?dir=tratamento_de_erro&file=try_catch">
+                                Try/Catch
+                            </a>
+                        </li>
+                                                               
+                    </ul>
+                </div>
             </nav>
         </div>
     </main>
