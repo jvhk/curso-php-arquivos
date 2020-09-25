@@ -413,6 +413,10 @@
                                 Try/Catch
                             </a>
                         </li>
+                        <li><a href="exercicio.php?dir=tratamento_de_erro&file=erros_personalizados">
+                                Erros personlizados
+                            </a>
+                        </li>
                                                                
                     </ul>
                 </div>
