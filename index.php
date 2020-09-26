@@ -417,6 +417,10 @@
                                 Erros personlizados
                             </a>
                         </li>
+                        <li><a href="exercicio.php?dir=tratamento_de_erro&file=desafio">
+                                Desafio
+                            </a>
+                        </li>
                                                                
                     </ul>
                 </div>
