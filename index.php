@@ -421,6 +421,10 @@
                                 Desafio
                             </a>
                         </li>
+                        <li><a href="exercicio.php?dir=tratamento_de_erro&file=handler">
+                                Handler
+                            </a>
+                        </li>
                                                                
                     </ul>
                 </div>
