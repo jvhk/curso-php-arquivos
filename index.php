@@ -428,6 +428,15 @@
                                                                
                     </ul>
                 </div>
+                <div class="modulo azul">
+                    <h3>Módulo 12</h3>
+                    <ul>
+                        <li><a href="exercicio.php?dir=sessao_cookie&file=basico">
+                                Básico
+                            </a>
+                        </li>                                                 
+                    </ul>
+                </div>
             </nav>
         </div>
     </main>
