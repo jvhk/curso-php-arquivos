@@ -1,8 +1,7 @@
-<div class="titulo">Basico</div>
-
 <?php
-//Iniciando sessão
 session_start();
+//Iniciando sessão
+
 
 print_r($_SESSION); //array associativo a sessão
 
@@ -22,7 +21,7 @@ print_r($_SESSION);
 
 
 <p>
-    <a href="basico_alterar.php">
+    <a href="/curso-php-arquivos/sessao_cookie/basico_alterar.php">
         Alterar sessão
     </a>
 </p>

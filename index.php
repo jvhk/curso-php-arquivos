@@ -434,7 +434,11 @@
                         <li><a href="exercicio.php?dir=sessao_cookie&file=basico">
                                 Básico
                             </a>
-                        </li>                                                 
+                        </li>                 
+                        <li><a href="exercicio.php?dir=sessao_cookie&file=gerenciando_sessao">
+                            Gerenciando sessao  
+                            </a>
+                        </li>                              
                     </ul>
                 </div>
             </nav>
