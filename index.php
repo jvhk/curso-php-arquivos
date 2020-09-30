@@ -1,3 +1,11 @@
+<?php
+    session_start();
+    if($_SESSION['usuario']){
+        header('Location: login.php');
+    }
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,6 +21,9 @@
         <h1>Curso PHP</h1>
         <h2>Índice dos Exercícios</h2>
     </header>
+    <nav class="navegacao">
+       
+    </nav>
     <main class="principal">
         <div class="conteudo">
             <nav class="modulos">
