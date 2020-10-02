@@ -1,5 +1,9 @@
 <?php
     session_start();
+    if($_COOKIE['usuario']){    //parte de cookie
+        $_SESSION['usuario'] = $_COOKIE['usuario'];
+    }
+
     if($_SESSION['usuario']){
         header('Location: login.php');
     }
@@ -21,15 +25,15 @@
     <nav class="navegacao">
         <span class="usuario">Usuário: <?= $_SESSION['usuario'] ?></span>
         
-        <a href=<?= "/{$_GET['dir']}/{$_GET['file']}.php" ?> 
-            class="verde">Sem formatação</a>
+        <a href=<?= "/{$_GET['dir']}/{$_GET['file']}.php" ?>  class="verde">Sem formatação</a>
         <a href="index.php" class="vermelho">Voltar</a>
         <a href="logout.php">Sair</a>
     </nav>
     <main class="principal">
         <div class="conteudo">
             <?php
-                include(__DIR__ . "/{$_GET['dir']}/{$_GET['file']}.php");
+                //include(__DIR__ . "/{$_GET['dir']}/{$_GET['file']}.php");
+                include($_GET['dir'] . "/" . $_GET['file'] . ".php");
             ?>
         </div>
     </main>
