@@ -1,5 +1,3 @@
-<div class="titulo">Download</div>
-
 <?php
 session_start();
 $arquivos = $_SESSION['arquivos'] ?? [];
@@ -19,6 +17,7 @@ if(move_uploaded_file($tmp,$arquivo)){
 
 ?>
 
+<div class="titulo">Download</div>
 
 <form action="#" method="post" enctype="multipart/form-data">
     <input type="file" name="arquivo">
