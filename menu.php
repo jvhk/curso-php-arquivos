@@ -454,6 +454,10 @@
                                 Download
                             </a>
                         </li>
+                        <li><a href="exercicio.php?dir=api&file=imagens">
+                                Desafio imagens
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </nav>
