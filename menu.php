@@ -469,4 +469,13 @@
                         </li>
                     </ul>
                 </div>
+                <div class="modulo verde-escuro">
+                    <h3>Módulo 15 - Banco de dados</h3>
+                    <ul>
+                        <li><a href="exercicio.php?dir=db&file=criar_banco">
+                                Criar banco
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
