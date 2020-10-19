@@ -13,6 +13,7 @@ $sql = 'CREATE TABLE IF NOT EXISTS cadastro (
 
 
 $conexao = novaConexao();
+mysqli_select_db($conexao,"primeiro_banco");
 $resultado = $conexao->query($sql);
 
 
