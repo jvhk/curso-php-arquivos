@@ -480,6 +480,10 @@
                                 Criar tabela
                             </a>
                         </li>
+                        <li><a href="exercicio.php?dir=db&file=inserir_1">
+                                Inserir registro
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </nav>
