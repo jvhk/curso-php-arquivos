@@ -488,6 +488,14 @@
                                 Consultar registros
                             </a>
                         </li>
+                        <li><a href="exercicio.php?dir=db&file=excluir_1">
+                                Excluir registros
+                            </a>
+                        </li>
+                        <li><a href="exercicio.php?dir=db&file=excluir_2">
+                                Excluir registros #2
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </nav>
