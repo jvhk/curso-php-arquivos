@@ -6,12 +6,12 @@ require_once "conexao.php";
 $sql = "INSERT INTO cadastro 
     (nome, nascimento, email, site, filhos, salario)
     VALUES (
-        'Marieta',
-        '1989-10-29',
-        'marieta@email.com',
-        'https://marieta.sites.com.br',
-        2,
-        13000.80   
+        'Marcos',
+        '1999-10-29',
+        'marcos@email.com',
+        'https://marcos.sites.com.br',
+        3,
+        12000.80   
 )";
 
 $conexao = novaConexao();

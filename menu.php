@@ -484,6 +484,10 @@
                                 Inserir registro
                             </a>
                         </li>
+                        <li><a href="exercicio.php?dir=db&file=consultar">
+                                Consultar registros
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </nav>
