@@ -496,6 +496,10 @@
                                 Excluir registros #2
                             </a>
                         </li>
+                        <li><a href="exercicio.php?dir=db&file=inserir_2">
+                                Inserir registro #2
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </nav>
