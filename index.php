@@ -1,12 +1,12 @@
 <?php
-    session_start();
-    if($_COOKIE['usuario']){        //parte de cookie
-        $_SESSION['usuario'] = $_COOKIE['usuario'];
-    }
+session_start();
+if($_COOKIE['usuario']){        //parte de cookie
+    $_SESSION['usuario'] = $_COOKIE['usuario'];
+}
 
-    if($_SESSION['usuario']){
-        header('Location: login.php');
-    }
+if($_SESSION['usuario']){
+    header('Location: login.php');
+}
 ?>
 
 
@@ -31,7 +31,7 @@
     </nav>
     <main class="principal">
         <div class="conteudo">
-            <?= include("menu.php"); ?>
+            <?= require_once("menu.php"); ?>
         </div>
     </main>
     <footer class="rodape">
