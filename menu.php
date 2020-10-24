@@ -500,6 +500,10 @@
                                 Inserir registro #2
                             </a>
                         </li>
+                        <li><a href="exercicio.php?dir=db&file=alterar">
+                                Alterar registro 
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </nav>
