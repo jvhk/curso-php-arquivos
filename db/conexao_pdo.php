@@ -15,4 +15,4 @@ function novaConexao($banco = 'primeiro_banco'){
 }
 
 novaConexao();
-echo "Fim";
+//echo "Fim",'<br>';

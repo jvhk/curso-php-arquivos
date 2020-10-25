@@ -504,6 +504,14 @@
                                 Alterar registro 
                             </a>
                         </li>
+                        <li><a href="exercicio.php?dir=db&file=inserir_pdo">
+                                PDO INSERIR 
+                            </a>
+                        </li>
+                        <li><a href="exercicio.php?dir=db&file=consulta_pdo">
+                                PDO CONSULTA
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </nav>
