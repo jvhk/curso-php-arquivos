@@ -512,6 +512,14 @@
                                 PDO CONSULTA
                             </a>
                         </li>
+                        <li><a href="exercicio.php?dir=db&file=excluir_pdo">
+                                PDO EXCLUIR
+                            </a>
+                        </li>
+                        <li><a href="exercicio.php?dir=db&file=alterar_pdo">
+                                PDO ALTERAR
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </nav>
