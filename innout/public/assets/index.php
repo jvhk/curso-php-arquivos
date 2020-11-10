@@ -1,7 +1,11 @@
 <?php
-require_once(dirname(__FILE__,2) . '\src\config\database.php');
-require_once(dirname(__FILE__,2) . '\src\models\User.php');
+define(DIRECTORY_SEPARATOR,';');
+
+//require_once(dirname(__FILE__,2) . '\src\config\database.php');
+require_once(dirname(__FILE__,2) .DIRECTORY_SEPARATOR. '..\src\config\database.php');
+require_once(dirname(__FILE__,2) .DIRECTORY_SEPARATOR. "..\src\models\User.php");
 //require_once "./src/config/database.php";
+
 
 /*
 $sql = "SELECT * FROM users";

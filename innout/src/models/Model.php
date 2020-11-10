@@ -12,7 +12,7 @@ class Model{
     public function loadFromArray($arr){
         if($arr){
             foreach($arr as $key => $value){
-
+                $this->set($key,$value);
             }
         }
     }
