@@ -20,4 +20,22 @@ while($row = $result->fetch_assoc()){
 */
 
 $user = new User(['name' => 'João', 'email' => 'joao@emial.com']);
+
 print_r($user);
+$user->email = 'maria@email.com';
+echo "<br>";
+print_r($user->email);
+echo "<br>";
+
+print_r($user);
+echo "<br>";
+//$user->__set('email','marcos@email.com');
+//print_r($user->__get('email'));
+//echo "<br>";
+
+echo "<hr>";
+
+//Gerando comando SELECT
+echo $user->getSelect(['id' => 1],'name,email');
+echo "<br>";
+echo $user->getSelect(['name' => 'Chaves','email' => 'chaves@cod3r.com.br']);
