@@ -36,6 +36,17 @@ echo "<br>";
 echo "<hr>";
 
 //Gerando comando SELECT
-echo $user->getSelect(['id' => 1],'name,email');
+echo "<b>Abaixo do comando select:</b>", "<br>";
+//echo $user->getAll(['id' => 1],'name,email');
 echo "<br>";
-echo $user->getSelect(['name' => 'Chaves','email' => 'chaves@cod3r.com.br']);
+//echo $user->getSelect(['name' => 'Chaves','email' => 'chaves@cod3r.com.br']);
+print_r(User::getAll(['id' => 1],'name,email'));
+echo "<br>";
+
+print_r(User::getAll([],'name')); //com filtro vazio e retornar apenas name
+echo "<br>";
+
+foreach(User::getAll([],'name') as $user){
+    echo $user->name;
+    echo "<br>";
+}
