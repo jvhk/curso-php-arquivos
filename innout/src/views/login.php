@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Innout</title>
-    <link rel="stylesheet" href="./innout/public/assets/css/comum.css">
-    <link rel="stylesheet" href="./innout/public/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./innout/public/assets/css/icofont.min.css">
-    <link rel="stylesheet" href="./innout/public/assets/css/login.css">
+    <link rel="stylesheet" href="../curso-php-arquivos/innout/public/assets/css/comum.css">
+    <link rel="stylesheet" href="../curso-php-arquivos/innout/public/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../curso-php-arquivos/innout/public/assets/css/icofont.min.css">
+    <link rel="stylesheet" href="../curso-php-arquivos/innout/public/assets/css/login.css">
 </head>
 <body>
     <div>Login</div>
