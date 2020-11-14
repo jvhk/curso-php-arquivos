@@ -3,7 +3,8 @@ define(DIRECTORY_SEPARATOR,';');
 
 //require_once(dirname(__FILE__,2) . '\src\config\database.php');
 require_once(dirname(__FILE__,2) .DIRECTORY_SEPARATOR. '..\src\config\database.php');
-require_once(dirname(__FILE__,2) .DIRECTORY_SEPARATOR. "..\src\models\User.php");
+//require_once(dirname(__FILE__,2) .DIRECTORY_SEPARATOR. "..\src\models\User.php");
+require_once(dirname(__FILE__,2) .DIRECTORY_SEPARATOR. '..\src\views\login.php');
 //require_once "./src/config/database.php";
 
 
