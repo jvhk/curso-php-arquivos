@@ -15,3 +15,4 @@ require_once(realpath(dirname(__FILE__) .DIRECTORY_SEPARATOR. '\database.php'));
 require_once(realpath(dirname(__FILE__) .DIRECTORY_SEPARATOR. '\loader.php'));
 require_once(realpath(MODEL_PATH .DIRECTORY_SEPARATOR. '\database.php'));
 require_once(realpath(EXCEPTION_PATH .DIRECTORY_SEPARATOR. '\AppException.php'));
+require_once(realpath(EXCEPTION_PATH .DIRECTORY_SEPARATOR. '\ValidationException.php'));
