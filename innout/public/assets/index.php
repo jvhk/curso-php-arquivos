@@ -20,8 +20,17 @@ try{
 }
 */
 
-require_once('C:\Apache24\htdocs\curso-php-arquivos\innout\src\config\config.php');
-require_once(CONTROLER_PATH .DIRECTORY_SEPARATOR. ' login.php');
+require_once(dirname(__FILE__,3) .DIRECTORY_SEPARATOR. 'src\config\config.php');
+//require_once(CONTROLER_PATH .DIRECTORY_SEPARATOR. 'login.php');
+
+$uri = urldecode($_SERVER['REQUEST_URI']);
+if($uri === '/' || $uri === '' || $uri === '\index.php'){
+    $uri = '\login.php';
+}
+
+require_once(CONTROLER_PATH .DIRECTORY_SEPARATOR. "\{$uri}");
+
+//require_once(CONTROLER_PATH .DIRECTORY_SEPARATOR. ' day_records.php');
 
 
 
