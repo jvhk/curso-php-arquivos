@@ -8,14 +8,14 @@
     <link rel="stylesheet" href="../curso-php-arquivos/innout/public/assets/css/comum.css">
     <link rel="stylesheet" href="../curso-php-arquivos/innout/public/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="../curso-php-arquivos/innout/public/assets/css/icofont.min.css">
-    <link rel="stylesheet" href="../curso-php-arquivos/innout/public/assets/css/login.css">
+    <link rel="stylesheet" href="../curso-php-arquivos/innout/public/assets/css/template.css">
 </head>
 <body>
     <div>Login</div>
     <form class="form-login" action="#" method="post">
         <div class="login-card">
             <div class="card-header">
-                <i class="icofont-travelling mr-0"></i>
+                <i class="icofont-travelling mr-2"></i>
                     <span class="font-weight-light">In </span>
                     <span class="font-weight-bold mx-2">'N</span>
                     <span class="font-weight-light">Out</span>
