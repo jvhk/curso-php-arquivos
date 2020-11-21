@@ -27,8 +27,10 @@ function loadTemplateView($viewName,$params = array()){
     //require_once(TEMPLATE_PATH .DIRECTORY_SEPARATOR. "/header.php");
     //require_once(TEMPLATE_PATH .DIRECTORY_SEPARATOR. "/menu.php");
     require_once(TEMPLATE_PATH .DIRECTORY_SEPARATOR. "\header.php");
+    require_once(TEMPLATE_PATH .DIRECTORY_SEPARATOR. "\left.php");
     require_once(VIEW_PATH .DIRECTORY_SEPARATOR. "{$viewName}.php");
     require_once(TEMPLATE_PATH .DIRECTORY_SEPARATOR. "\footer.php");
+    
     //require_once(TEMPLATE_PATH .DIRECTORY_SEPARATOR. "/footer.php");
 }
 
